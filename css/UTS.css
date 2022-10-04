@@ -1,0 +1,342 @@
+* {padding: 0; margin: 0;}
+
+.container { width: 1200px; margin: auto; height: auto; }
+
+
+header { width :1200px; height: 100px; background-color: white; margin: auto;}
+header .kiri img {width: 100px; height: 100px; margin-left: 35px; float: left; margin-right: 20px;}
+
+h2 {width: 25%; margin-left: 20px; margin-right: 40px; height: 100px; line-height: 100px;}
+
+
+header nav {width: 60%; float: right; z-index: 1; margin-top: -90px;}
+
+ header nav ul li {height: 100%; list-style: none; float: left; padding: 30px; 
+   cursor: pointer; }
+
+nav ul li a {text-decoration: none; color: black; background: white; z-index: 1;}
+
+nav ul li ul {visibility: hidden; position: absolute;margin-top: 30px; opacity: 0; z-index: 1; transition:  0.4s ease-in-out 0s;}
+
+nav ul li ul li a {background: white; padding: 40px; margin-left: -22px;}
+
+
+nav ul li:hover > ul {visibility: visible; opacity: 1; }
+
+nav ul li ul li {float :none; position: relative; margin-left: -4px; margin-top: -5px;}
+
+
+nav ul li ul li ul li {margin-left: -40px;}
+
+nav ul ul ul {left: 100%; top :-15px; width: 150px;}
+
+nav ul li:hover >a {color : skyblue;}
+
+nav li:hover {color: skyblue; }
+
+.judul a1 {color: black;}
+.judul a {border-top: 3px solid #0e75eb; padding-top: 10px; color: black;}
+
+
+
+ .foto img {width: 1200px; opacity: 0.8;} 
+
+
+
+ .foto {position: relative;}
+
+ .foto .garis {position: absolute; font-size: 40px; color: blue; top: 15%; left: 10%;}
+ .foto .judul {font-size: 50px; color: orange; text-align: center; margin-top: 10px; position: absolute;
+    top: 20%; left: 10%; font-family: calibri;}
+ .foto .keterangan {position: absolute;}
+
+ .foto .keterangan{display: block; position: absolute; font-size: 20px;
+    top: 30%; left: 10%; color: ghostwhite; text-align: center;}
+
+.read a {position: absolute; top: 200%; left: 0%; padding: 15px; background-color: royalblue; color: white; text-decoration: none;}
+
+.read a:hover { background: none; color: blue; border: 2px solid blue; padding: 15px;}
+
+.read a:hover {transition: 0.6s ease-in-out;}
+
+
+.form2 {position: absolute; bottom: 0.5%; left: 27%; border-bottom: 3px solid skyblue; background-color: white; padding: 5px;}
+
+.form2 input {line-height: 30px; height: auto; border: none; border-right: 1px solid gray; margin: 5px 5px}
+.form2 select {line-height: 30px; height: 35px; border: none; border-right: 1px solid gray;}
+
+.form2 input[type=submit] {padding: 8px; background-color: skyblue; width: 90px; height: 40px; margin-top: 5px; text-decoration: none; color: white;  padding-right: 2px;}
+
+.form2 input[type=submit]:hover { background: none; color: blue; border: 1px solid skyblue; margin-top: 5px; padding: 7px; width: 90px; height: 40px; transition: 0.6s ease-in-out; padding-right: 2px;}
+
+
+
+
+.imagegal {text-align: center; margin-top: 80px; margin-bottom: 250px; width: 1200px;} 
+
+.imegal {width: 1200px}
+
+.imagegal h3 {margin-top: 20px; margin-bottom: 20px;}
+
+.imagegal a {color: skyblue; font-family:courier;}
+
+.imagegal .picture {width: 220px; position: relative;}
+.imagegal .picture img {width: 100%; height: auto;}
+.imagegal .picture {float: left; margin: 10px}
+
+.imagegal .picture .title {display: block; position: absolute; font-size: 20px;
+   bottom: 20%; left: 10%; color: deepskyblue; text-align: center; padding: 7px;}
+
+
+
+.imagegal .picture .ket {display: block; position: absolute; font-size: 14px;
+   bottom: 10%; left: 10%; color: ghostwhite; text-align: center; padding: 7px;}
+
+      .imagegal .pagi {margin-right: 460px;}
+
+      .imagegal .pagi a {padding: 2px 10px; text-decoration: none; color: steelblue; margin-right: 10px;}
+      .imagegal .pagi a:not(.active) {padding: 2px 10px; background-color: gray; text-decoration: none; margin-right: 10px; border-radius: 50%;}
+      .imagegal .pagi a:hover:not(.active) {background-color: skyblue; border-radius: 50%; color: white;}
+      .imagegal .pagi a.active {background-color: orangered; color: white; border-radius: 50%;}
+
+
+
+
+.multi4 {width: 1200px;}
+
+
+.multi {margin: auto; background-color: blanchedalmond; text-align: center; position: absolute; height: auto;}
+
+.multi a {font-size: 20px;}
+
+
+.multi .kiri {width: 300px; height: 400px; margin-left: 75px; margin-top: 40px; margin-bottom: 10px; text-align: left; position: relative; background-color: whitesmoke; float: left;}
+
+.multi .kiri .foto2 .ket1 h5 {margin-bottom: 10px;}
+
+.multi .kiri .foto2 .ket1 p {margin-bottom: 30px;}
+
+.multi .kiri .foto2 .ket1 {margin-left: 10px;}
+
+.multi .kiri .foto2 img {width: 300px; margin-bottom: 10px;}
+
+.multi .kiri .foto2 .favor a{border-right: 1px solid black; border-top: 1px solid black; font-size: 15px; text-decoration: none; padding: 10px; text-align: center; color: black;}
+
+.multi .kiri .foto2 .book a{  width: 117px; border-top: 1px solid black;   font-size: 15px; text-decoration: none;position: absolute; left: 54%; bottom: -1.5px;  padding: 10px; text-align: center; color: black;}
+
+.multi .kiri .foto2 .favor a:hover {border-right: 1px solid black; border-top: 1px solid black; font-size: 15px; text-decoration: none; padding: 10px; text-align: center; color: aquamarine; transition: 0.4s ease-in-out;}
+
+.multi .kiri .foto2 .book a:hover { width: 117px; border-top: 1px solid black;  font-size: 15px; text-decoration: none; position: absolute; left: 54%; bottom: -1.5px; padding: 10px; text-align: center; color: aquamarine; transition: 0.4s ease-in-out;}
+
+.multi .kiri .foto2 {width: 300px;}
+
+
+.multi .tengah {width: 300px; height: 400px; margin-left: 75px; margin-top: 40px; text-align: left; position: relative; background-color: whitesmoke; float: left; margin-bottom: 20px;}
+
+.multi .tengah .foto2 .ket1 h5 {margin-bottom: 10px;}
+
+.multi .tengah .foto2 .ket1 p {margin-bottom: 30px;}
+
+.multi .tengah .foto2 .ket1 {margin-left: 10px;}
+
+.multi .tengah .foto2 img {width: 300px; margin-bottom: 10px;}
+
+.multi .tengah .foto2 .favor a{border-right: 1px solid black; border-top: 1px solid black; font-size: 15px; text-decoration: none; padding: 10px; text-align: center; color: black;}
+
+.multi .tengah .foto2 .book a{ width: 117px; border-top: 1px solid black;  font-size: 15px; text-decoration: none; position: absolute; left: 54%; bottom: -1.5px; padding: 10px; text-align: center; color: black;}
+
+.multi .tengah .foto2 .favor a:hover {border-right: 1px solid black; border-top: 1px solid black; font-size: 15px; text-decoration: none; padding: 10px; text-align: center; color: aquamarine; transition: 0.4s ease-in-out;}
+
+.multi .tengah .foto2 .book a:hover { width: 117px; border-top: 1px solid black;  font-size: 15px; text-decoration: none; position: absolute; left: 54%; bottom: -1.5px; padding: 10px; text-align: center; color: aquamarine; transition: 0.4s ease-in-out;}
+
+
+
+.multi .kanan {width: 300px; height: 400px;  margin-left: 75px; margin-top: 40px; margin-right: 75px; text-align: left; position: relative; background-color: whitesmoke; float: left;}
+
+.multi .kanan .foto2 .ket1 h5 {margin-bottom: 10px;}
+
+.multi .kanan .foto2 .ket1 p {margin-bottom: 30px;}
+
+.multi .kanan .foto2 .ket1 {margin-left: 10px;}
+
+.multi .kanan .foto2 img {width: 300px; margin-bottom: 10px;}
+
+.multi .kanan .foto2 .favor a{border-right: 1px solid black; border-top: 1px solid black; font-size: 15px; text-decoration: none; padding: 10px 10px 10px 10px; text-align: center; color: black;}
+
+.multi .kanan .foto2 .book a{ width: 117px; border-top: 1px solid black; font-size: 15px; text-decoration: none; position: absolute; left: 54%; bottom: -1.5px; padding: 10px 10px 10px 10px; text-align: center; color: black;}
+
+.multi .kanan .foto2 .favor a:hover {border-right: 1px solid black; border-top: 1px solid black; font-size: 15px; text-decoration: none; padding: 10px 10px 10px 10px; text-align: center; color: aquamarine; transition: 0.4s ease-in-out;}
+
+.multi .kanan .foto2 .book a:hover {width: 117px; border-top: 1px solid black; font-size: 15px; text-decoration: none; position: absolute; left: 54%; bottom: -1.5px; padding: 10px 10px 10px 10px; text-align: center; color: aquamarine; transition: 0.4s ease-in-out;}
+
+
+.lokasi {margin: auto; margin-left: 70px; margin-top: 100px; position: relative;}
+
+.lokasi h1 {margin-top: 70%; text-align: center; margin-left: -4%;}
+.lokasi img {width: 300px}
+
+.lokasi .kiri {margin-top: 40px; width: 320px; border: 0.5px solid black; border-radius: 10px; float: left; position: relative;}
+
+.lokasi .kiri .foto2 {margin-left: 10px; margin-top: 10px;}
+
+.lokasi .kiri .foto2 .ket1 p {margin-bottom: 30px;}
+
+
+.lokasi .tengah { margin-left: 50px; margin-top: 40px; width: 320px; border: 0.5px solid black; border-radius: 10px; float: left; position: relative;}
+
+.lokasi .tengah .foto2 {margin-left: 10px; margin-top: 10px;}
+
+.lokasi .tengah .foto2 .ket1 p {margin-bottom: 30px;}
+
+
+.lokasi .kanan { margin-top: 40px; margin-left: 50px; width: 320px; border: 0.5px solid black; border-radius: 10px; float: left; position: relative;}
+
+.lokasi .kanan .foto2 {margin-left: 10px; margin-top: 10px;}
+
+.lokasi .kanan .foto2 .ket1 p {margin-bottom: 30px;}
+
+
+.pembatas {text-align: center; padding-top: 100px; margin-top: 350px; margin-left: -20px; margin-bottom: 300px;}
+
+
+
+.multi2 .arti {text-align: left; margin-left: 100px; width: 500px; float: left;}
+
+.multi2 .arti h3 {font-size: 30px; font-family: calibri; margin-bottom: 20px; margin-top: 50px;}
+
+.multi2 .arti .read2 {margin-top: 40px; float: left; position: relative;}
+.multi2 .arti .read2 a {padding: 15px; background-color: royalblue; color: white; text-decoration: none; }
+
+.multi2 .arti .read2 a:hover { background: none; color: blue; border: 2px solid blue; padding: 15px;}
+
+.multi2 .arti .read2 a:hover {transition: 0.6s ease-in-out;}
+
+
+.multi2 .artikanan {float: left; width: 400px; position: relative; margin-top: 80px; margin-left: 100px;}
+.multi2 .artikanan nav ul li{border: 1px solid black; width: 300px; padding: 10px; list-style: none;}
+
+.multi2 .artikanan nav ul li ul li {border: 1px solid black; width: 300px;}
+
+.multi2 .artikanan nav ul li ul .l3 {margin-top: 20px; margin-left: -10px;}
+.multi2 .artikanan nav ul li ul .l2 {margin-top: 60px; margin-left: -10px; }
+.multi2 .artikanan nav ul li ul .l1 {margin-top: 100px; margin-left: -10px;}
+
+.vide .vd video { width: 1200px; margin-top: 80px; opacity: 0.7;}
+
+.vide .vd .judul1  {width: 200px; text-align: center; position: absolute; top:40%; left: 41%; font-family: calibri;}
+
+.bungkus {position: relative;}
+
+.vide .vd .judul1 a{text-decoration: none;  border:2px solid black ; border-radius: 50%; padding: 20px 25px; font-size: 30px; color: orange; }
+
+.multi3 {margin-top: 40px; text-align: center; position: relative;}
+
+.multi3 h3 {margin-top: 20px;}
+
+.multi3 .kiri {float: left; width: 300px; margin-left: 50px; margin-right: 20px; position: relative;}
+
+.multi3 .kiri .judul2 {margin-top: 40px; background-color: orangered; width: 300px; padding: 20px 25px; border-top-left-radius: 5px ; border-top-right-radius: 5px;}
+
+.multi3 .kiri .ket2 {background-color: palegreen; width: 300px; padding: 20px 25px; border-bottom-right-radius: 5%; border-bottom-left-radius: 5%; height: 250px;}
+
+
+
+.multi3 .kiri .ket2 .read3 a {padding: 15px; background-color: royalblue; color: white; text-decoration: none;}
+
+.multi3 .kiri .ket2 .read3 a:hover { background: none; color: blue; border: 2px solid blue; padding: 15px;}
+
+.multi3 .kiri .ket2 .read3 a:hover {transition: 0.6s ease-in-out;}
+
+.multi3 .tengah {float: left; width: 300px; margin-left: 50px; position: relative;}
+
+.multi3 .tengah .judul2 {margin-top: 40px; background-color: orangered; width: 300px; padding: 20px 25px; border-top-left-radius: 5px ; border-top-right-radius: 5px;}
+
+.multi3 .tengah .ket2 {background-color: palegreen; width: 300px; padding: 20px 25px; border-bottom-right-radius: 5%; border-bottom-left-radius: 5%; height: 250px;}
+
+.multi3 .tengah .ket2 .read3 a {padding: 15px; background-color: royalblue; color: white; text-decoration: none;}
+
+.multi3 .tengah .ket2 .read3 a:hover { background: none; color: blue; border: 2px solid blue; padding: 15px;}
+
+.multi3 .tengah .ket2 .read3 a:hover {transition: 0.6s ease-in-out;}
+
+
+.multi3 .kanan {float: left; width: 300px;margin-left: 70px; position: relative;}
+
+.multi3 .kanan .judul2 {margin-top: 40px; background-color: orangered; width: 300px; padding: 20px 25px; border-top-left-radius: 5px ; border-top-right-radius: 5px;}
+
+.multi3 .kanan .ket2 {background-color: palegreen; width: 300px; padding: 20px 25px; border-bottom-right-radius: 5%; border-bottom-left-radius: 5%; height: 250px;}
+
+
+
+.multi3 .kanan .ket2 .read3 a {padding: 15px; background-color: royalblue; color: white; text-decoration: none;}
+
+.multi3 .kanan .ket2 .read3 a:hover { background: none; color: blue; border: 2px solid blue; padding: 15px;}
+
+.multi3 .kanan .ket2 .read3 a:hover {transition: 0.6s ease-in-out;}
+
+
+.talk {margin-top: 500px; text-align: center;}
+
+.talk h3 {margin-bottom: 50px; font-size: 50px ;}
+.talk a {padding: 15px; background-color: royalblue; color: white; text-decoration: none;}
+.talk a:hover { background: none; color: blue; border: 2px solid blue; padding: 15px;}
+.talk a:hover {transition: 0.6s ease-in-out;}
+
+
+
+
+
+
+.akhir {border-top: 1px solid black; width: 1200px; margin-top: 200px;}
+
+.akhir .kiri {width: 400px; margin-left: 50px; float: left;}
+
+.akhir .kiri img {width: 50px; float: left; margin-top: 25px;}
+
+.akhir .kiri p {margin-left: 10px;}
+
+.akhir .kiri .medsos img {width: 30px; margin-left: 10px; border-radius: 50%;}
+
+.akhir .kiri .medsos img:hover {width: 35px; margin-left: 10px; border-radius: 50%; cursor: pointer;}
+
+
+.akhir .tengah {float: left; width: 300px; margin-left: 40px; margin-top: 40px;}
+
+.akhir .tengah h3 {margin-bottom: 17px;}
+
+.akhir .tengah a {text-decoration: none; color: black;}
+
+.akhir .tengah a:hover {text-decoration: none; color: red; transition: 0.4s ease-in-out; }
+
+
+.akhir .tengah .kiri1 {float: left;}
+
+.akhir .tengah .kanan2 {float: left; margin-left: 50px;}
+
+
+.akhir .kanan {float: left; width: 300px; margin-left: 40px; margin-top: 40px;}
+.akhir .kanan p1 a {text-decoration: none; color: blue; margin-left: 30px; text-align: left;}
+
+.akhir .kanan p2 a {text-decoration: none; color: blue; margin-left: 33px; text-align: left;}
+
+.akhir .kanan p3 a {text-decoration: none; color: blue; margin-left: 18px; text-align: left;}
+
+
+.multi2 .artikanan nav ul li ul {transition:  0.4s ease-in 0s;}
+
+footer {background-color: #BCDFFA; color: #000000; width: 1200px; text-align: center;
+   font-size: 15px;
+   line-height: 40px; height: 40px; margin-top: 400px;
+    bottom: 0px;}
+
+
+
+.profile img {width: 650px; margin-left: 290px; float: center;background-color: blanchedalmond; height: 500px;}
+
+.data {float: left;  background-color: skyblue;  width: 1200px;}
+
+.data h1 {text-align: center;}
+
+
+.datalengkap {background-color: blanchedalmond; }
+
